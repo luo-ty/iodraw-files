@@ -4,61 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-1" target="RoLFJg8iwixS3yHEgsf4-2">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-1" target="RoLFJg8iwixS3yHEgsf4-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-5" value="http/https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RoLFJg8iwixS3yHEgsf4-4">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-5" value="http/https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RoLFJg8iwixS3yHEgsf4-4" vertex="1" connectable="0">
           <mxGeometry x="0.1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-1" value="客户端层&lt;div&gt;（Web Browser / Mobile Browser）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-1" value="客户端层&lt;div&gt;（Web Browser / Mobile Browser）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="110" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-2" target="RoLFJg8iwixS3yHEgsf4-6">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-2" target="RoLFJg8iwixS3yHEgsf4-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-8" value="Unix Socket / http（反向代理至uWSGI）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RoLFJg8iwixS3yHEgsf4-7">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-8" value="Unix Socket / http（反向代理至uWSGI）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RoLFJg8iwixS3yHEgsf4-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-2" value="负载均衡/代理层&lt;div&gt;Nginx&lt;/div&gt;&lt;div&gt;(静态文件服务 / 负载均衡 / SSL终止)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-2" value="负载均衡/代理层&lt;div&gt;Nginx&lt;/div&gt;&lt;div&gt;(静态文件服务 / 负载均衡 / SSL终止)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-6" target="RoLFJg8iwixS3yHEgsf4-9">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-6" target="RoLFJg8iwixS3yHEgsf4-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-11" value="（进程内调用）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RoLFJg8iwixS3yHEgsf4-10">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-11" value="（进程内调用）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RoLFJg8iwixS3yHEgsf4-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-6" value="web应用服务器层&lt;div&gt;uWSGI&lt;/div&gt;&lt;div&gt;（WSGI服务器， 管理Django应用进程）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-6" value="web应用服务器层&lt;div&gt;uWSGI&lt;/div&gt;&lt;div&gt;（WSGI服务器， 管理Django应用进程）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="380" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-9" target="RoLFJg8iwixS3yHEgsf4-14">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-9" target="RoLFJg8iwixS3yHEgsf4-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-9" value="Web应用框架层&lt;div&gt;Django&lt;/div&gt;&lt;div&gt;（url路由，试图逻辑， 模型ORM， 模板渲染， 中间件）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-9" value="Web应用框架层&lt;div&gt;Django&lt;/div&gt;&lt;div&gt;（url路由，试图逻辑， 模型ORM， 模板渲染， 中间件）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="520" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-12" value="缓存与异步层&lt;div&gt;Redis&amp;lt;--&amp;gt;Celery&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-12" value="缓存与异步层&lt;div&gt;Redis&amp;lt;--&amp;gt;Celery&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-13" value="数据持久层&lt;div&gt;MySQL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-13" value="数据持久层&lt;div&gt;MySQL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-14" value="外部服务层&lt;div&gt;阿里云oss&lt;/div&gt;&lt;div&gt;短信/邮件API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-14" value="外部服务层&lt;div&gt;阿里云oss&lt;/div&gt;&lt;div&gt;短信/邮件API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.206;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-9" target="RoLFJg8iwixS3yHEgsf4-12">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.206;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-9" target="RoLFJg8iwixS3yHEgsf4-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="660" as="sourcePoint" />
             <mxPoint x="260" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RoLFJg8iwixS3yHEgsf4-13">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="RoLFJg8iwixS3yHEgsf4-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="599" as="sourcePoint" />
             <mxPoint x="680" y="610" as="targetPoint" />
