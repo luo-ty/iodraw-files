@@ -7,17 +7,16 @@
         <mxCell id="RoLFJg8iwixS3yHEgsf4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RoLFJg8iwixS3yHEgsf4-1" target="RoLFJg8iwixS3yHEgsf4-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-5" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RoLFJg8iwixS3yHEgsf4-4">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RoLFJg8iwixS3yHEgsf4-1" value="客户端层&lt;div&gt;（Web Browser / Mobile Browser）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="110" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-2" value="负载均衡/代理层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="270" width="390" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="310" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
