@@ -43,7 +43,7 @@
         <mxCell id="RoLFJg8iwixS3yHEgsf4-9" value="Web应用框架层&lt;div&gt;Django&lt;/div&gt;&lt;div&gt;（url路由，试图逻辑， 模型ORM， 模板渲染， 中间件）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoLFJg8iwixS3yHEgsf4-12" value="缓存与异步层&lt;div&gt;（Cache）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RoLFJg8iwixS3yHEgsf4-12" value="缓存与异步层&lt;div&gt;Redis&amp;lt;--&amp;gt;Celery&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RoLFJg8iwixS3yHEgsf4-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
