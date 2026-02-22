@@ -50,7 +50,7 @@
           <mxGeometry x="490" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RoLFJg8iwixS3yHEgsf4-14" value="外部服务层&lt;div&gt;阿里云oss&lt;/div&gt;&lt;div&gt;短信/邮件API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="750" width="125" height="60" as="geometry" />
+          <mxGeometry x="375" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RoLFJg8iwixS3yHEgsf4-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.206;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RoLFJg8iwixS3yHEgsf4-9" target="RoLFJg8iwixS3yHEgsf4-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
